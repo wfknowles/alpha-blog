@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Home | Alpha Blog</title>
+  <meta name="description" content="Alpha Blog">
+  <meta name="author" content="Will Knowles">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Alpha Blog</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to 'Home', root_path %></li>
+      <li><%= link_to 'About', about_path %></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>My First Bootstrap Page: Home</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>Header</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-sm-4">
+            <h2>Header</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-sm-4">
+            <h2>Header</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+      <div class="container">
+        <p class="text-muted">Designs by Will, 2016</p>
+      </div>
+    </footer>
+</body>
+</html>
